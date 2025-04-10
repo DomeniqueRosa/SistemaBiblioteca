@@ -57,7 +57,6 @@ int cadastrarLivro(Biblioteca *b, char *titulo, char *autor, int ano, char *isbn
         redimensionarBiblioteca(b, b->capacidade * 2);
     }
 
-    
      // Inserir novo livro no final do vetor
      strcpy(b->livros[b->totalLivros].titulo, titulo);
      strcpy(b->livros[b->totalLivros].autor, autor);
