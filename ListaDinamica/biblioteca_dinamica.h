@@ -1,16 +1,10 @@
 #ifndef BIBLIOTECA_DINAMICA_H
 
 #define BIBLIOTECA_DINAMICA_H
-
-
 #define MAX_TITULO 100
-
 #define MAX_AUTOR 100
-
 #define MAX_ISBN 14
-
 #define MAX_USUARIO 100
-
 #define MAX_DATA 11
 
 

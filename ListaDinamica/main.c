@@ -11,7 +11,7 @@ int main()
 
     cadastrarLivro(&b, "A Metamorfose", "Kafka", 1915, "1111111111111");
 
-    cadastrarLivro(&b, "O Pequeno Príncipe", "Saint-Exupéry", 1943, "2222222222222");
+    cadastrarLivro(&b, "O Pequeno Principe", "Saint-Exupéry", 1943, "2222222222222");
 
     listarTodosLivros(&b);
 
