@@ -27,7 +27,7 @@ int cadastrarLivro(Biblioteca *b, char *titulo, char *autor, int ano, char *isbn
     // Verificar se alocacao deu certo
     if(novo == NULL)return -1;
 
-    // Inserir no início da lista
+    //adc dados no livro
     strcpy(novo->livro.titulo,titulo);
     strcpy(novo->livro.autor, autor);
     strcpy(novo->livro.isbn, isbn);
@@ -35,7 +35,8 @@ int cadastrarLivro(Biblioteca *b, char *titulo, char *autor, int ano, char *isbn
     novo->livro.status = DISPONIVEL;
     strcpy(novo->livro.usuario, "");
     strcpy(novo->livro.dataEmprestimo, "");
-
+    
+    // Inserir no início da lista
     novo->proximo = b->primeiro;
 
     b->primeiro = novo;
